@@ -5,7 +5,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .models import Song
 from .serializers import MusicSerializer
-from music_library import serializers
+from songs import serializers
 
 @api_view(['GET', 'POST'])
 def music_library_list(request):
