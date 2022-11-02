@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]
 
-ROOT_URLCONF = 'music_library.urls'
+ROOT_URLCONF = 'music_library_project.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'music_library.wsgi.application'
+WSGI_APPLICATION = 'music_library_project.wsgi.application'
 
 
 
