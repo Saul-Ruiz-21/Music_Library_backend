@@ -122,4 +122,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 try:
     from music_library_project.local_setting import *
 except ImportError:
-    Error
+    raise Error

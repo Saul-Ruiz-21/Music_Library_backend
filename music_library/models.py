@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Music_Library(models.Modle):
+class Song(models.Model):
     title = models.CharField(max_length = 225)
     artist = models.CharField(max_length = 225)
     album = models.CharField(max_length = 225)
