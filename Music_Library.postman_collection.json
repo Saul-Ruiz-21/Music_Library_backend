@@ -10,7 +10,23 @@
 			"name": "Get_All_Songs",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -21,7 +37,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n\"title\": \"Never Gonna Give You Up\",\r\n\"artist\": \"Rick Astley\",\r\n\"album\": \"Whenever You Need Somebody\",\r\n\"release_date\": \"1987-07-27\",\r\n\"genre\": \"Dance-Pop\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -60,6 +76,22 @@
 							"language": "json"
 						}
 					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
+						""
+					]
 				}
 			},
 			"response": []
@@ -68,7 +100,23 @@
 			"name": "Delete_Song",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -76,7 +124,23 @@
 			"name": "Get_Song_By_ID",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
+						"2"
+					]
+				}
 			},
 			"response": []
 		}
